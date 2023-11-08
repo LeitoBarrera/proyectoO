@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../parte1/imgs/wp4898015.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.main-content {
+    width: 50%;
+}
+
+
+.form-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input[type="search"] {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.fa-search {
+    margin-right: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+button i.fa-search {
+    background-size: 20px; 
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.table-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.table-container {
+    width: 90%; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    background-color: rgba(202, 129, 20, 0.822);
+}
+
+th, td {
+    padding: 8px;
+    border: 2px solid #000000;
+}
+
+tr:nth-child(even) {
+    background-color: #ebcb15;
+}
+
+tr:first-child {
+    background-color: #3dd3ee;
+    font-weight: bold;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

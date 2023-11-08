@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../parte1/imgs/wp4898015.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f2f2f2;
+}
+
+
+.table-container {
+    width: 80%;
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #000;
+}
+
+tr:nth-child(even) {
+    background-color: #ebcb15;
+}
+
+tr:first-child {
+    background-color: #3dd3ee;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.table-header th {
+    text-align: center;
+}
+
+
+.table-content {
+    border-collapse: collapse;
+}
+
+.table-content td {
+    border: 1px solid #000;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
