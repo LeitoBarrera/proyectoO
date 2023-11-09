@@ -9,12 +9,7 @@
 
 </head>
 <body>
-    <div class="main-content">
-        <form class="form-search" method="get" action="../parte1/form_resultado.php">
-            <input type="search" name="search" placeholder="Buscar..." required>
-            <button type="submit"><i class="fas fa-search"></i></button>
-        </form>
-    </div>
+
 </body>
 
 </html>
