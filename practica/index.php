@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRUEBA</title>
-    <link rel="stylesheet" href="../parte1/estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-
+    <title>Mi Página</title>
 </head>
 <body>
-
+    <header>
+        <h1>Bienvenido a mi Página</h1>
+    </header>
+    <main>
+        <p>¡Hola! Esta es una página de ejemplo.</p>
+        <p>Puedes modificar este archivo HTML como desees.</p>
+    </main>
+    <footer>
+        <p>&copy; 2023 - Creado por [Tu nombre]</p>
+    </footer>
 </body>
 
 </html>
