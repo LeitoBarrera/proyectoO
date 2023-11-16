@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultados</title>
-    <link rel="stylesheet" href="../parte1/estilos.css">
+    <link rel="stylesheet" href="../parte1/estilos2.css">
 </head>
 <body>
     <div class="table-container">
@@ -19,7 +19,7 @@
             </tr>
 
             <?php
-            require("conexion.php"); 
+            require("../parte1/conexion.php");
 
             $busqueda = isset($_GET["search"]) ? $_GET["search"] : "";
 

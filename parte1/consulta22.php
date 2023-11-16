@@ -27,7 +27,7 @@
                 }
                 echo "</tr>";
             }
-            
+
             mysqli_close($conexion);
             ?>
         </table>
